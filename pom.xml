@@ -260,7 +260,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-core</artifactId>
-            <version>1.11.477</version>
+            <version>1.12.130</version>
         </dependency>
         <dependency>
             <groupId>commons-logging</groupId>
