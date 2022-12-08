@@ -24,7 +24,7 @@ def download_maven_jar(jar_url, local_jar_file)
       end
     end
   rescue OpenURI::HTTPError => error
-    abort("Unable to download from URI #{jar_url} with error #{error.io.status}")
+    print "Unable to download from URI #{jar_url} with error #{error.io.status}"
   end
 end
 
